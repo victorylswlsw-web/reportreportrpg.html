@@ -3,9 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>다온 | 학교폭력 도움센터</title>
 
 <style>
+
 *{
     box-sizing:border-box;
     margin:0;
@@ -14,11 +16,12 @@
 
 body{
     font-family:
-        -apple-system,
-        BlinkMacSystemFont,
-        "Segoe UI",
-        "Noto Sans KR",
-        sans-serif;
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    "Noto Sans KR",
+    sans-serif;
+
     background:#f5f7fb;
     color:#182230;
 }
@@ -34,15 +37,22 @@ a{
     color:inherit;
 }
 
-/* HEADER */
+
+/* =========================
+   HEADER
+========================= */
+
 header{
     height:70px;
-    background:white;
+    background:#fff;
     border-bottom:1px solid #e8ebf0;
+
     display:flex;
     align-items:center;
     justify-content:space-between;
+
     padding:0 7%;
+
     position:sticky;
     top:0;
     z-index:10;
@@ -71,32 +81,45 @@ header{
     font-size:14px;
 }
 
-/* HERO */
+
+/* =========================
+   HERO
+========================= */
+
 .hero{
     max-width:1180px;
     margin:0 auto;
+
     padding:75px 25px 45px;
+
     display:grid;
     grid-template-columns:1.2fr .8fr;
+
     gap:35px;
     align-items:center;
 }
 
 .badge{
     display:inline-block;
+
     background:#eaf0ff;
     color:#2457d6;
+
     padding:8px 13px;
     border-radius:30px;
+
     font-size:13px;
     font-weight:700;
+
     margin-bottom:18px;
 }
 
 .hero h1{
     font-size:43px;
     line-height:1.25;
+
     letter-spacing:-1.5px;
+
     margin-bottom:20px;
 }
 
@@ -106,98 +129,146 @@ header{
 
 .hero p{
     color:#657080;
+
     line-height:1.8;
+
     font-size:16px;
+
     max-width:650px;
 }
 
 .main-buttons{
     margin-top:30px;
+
     display:flex;
     gap:12px;
+
     flex-wrap:wrap;
 }
 
 .primary{
     background:#2457d6;
-    color:white;
+    color:#fff;
+
     padding:15px 22px;
+
     border-radius:12px;
+
     font-size:15px;
     font-weight:700;
-    box-shadow:0 8px 25px rgba(36,87,214,.18);
+
+    box-shadow:
+    0 8px 25px rgba(36,87,214,.18);
 }
 
 .secondary{
-    background:white;
+    background:#fff;
+
     border:1px solid #dfe4ed;
+
     padding:15px 22px;
+
     border-radius:12px;
+
     font-size:15px;
     font-weight:700;
 }
 
-/* HERO CARD */
+
+/* =========================
+   HERO CARD
+========================= */
+
 .hero-card{
     background:#17233d;
+
     border-radius:24px;
+
     padding:30px;
-    color:white;
-    box-shadow:0 20px 45px rgba(20,35,65,.2);
+
+    color:#fff;
+
+    box-shadow:
+    0 20px 45px rgba(20,35,65,.2);
 }
 
 .hero-card .small{
     color:#aeb9ce;
+
     font-size:13px;
+
     margin-bottom:10px;
 }
 
 .hero-card h2{
     font-size:25px;
+
     margin-bottom:15px;
 }
 
 .hero-card p{
     color:#c6cfdf;
+
     font-size:14px;
+
     line-height:1.7;
 }
 
 .emergency{
     margin-top:25px;
+
     background:#263654;
+
     border-radius:14px;
+
     padding:17px;
+
     display:flex;
+
     align-items:center;
     justify-content:space-between;
+
     gap:10px;
 }
 
 .emergency strong{
     display:block;
+
     font-size:14px;
 }
 
 .emergency span{
     display:block;
+
     color:#b8c4d9;
+
     font-size:12px;
+
     margin-top:4px;
 }
 
 .call-btn{
     background:#ef4444;
-    color:white;
+
+    color:#fff;
+
     border-radius:10px;
+
     padding:11px 15px;
+
     font-weight:800;
 }
 
-/* SECTION */
+
+/* =========================
+   SECTION
+========================= */
+
 section{
     max-width:1180px;
+
     margin:0 auto;
+
     padding:45px 25px;
 }
 
@@ -207,6 +278,7 @@ section{
 
 .section-title h2{
     font-size:27px;
+
     margin-bottom:8px;
 }
 
@@ -214,61 +286,94 @@ section{
     color:#7a8494;
 }
 
-/* CARDS */
+
+/* =========================
+   CARDS
+========================= */
+
 .cards{
     display:grid;
-    grid-template-columns:repeat(3,1fr);
+
+    grid-template-columns:
+    repeat(3,1fr);
+
     gap:18px;
 }
 
 .card{
-    background:white;
+    background:#fff;
+
     border:1px solid #e7eaf0;
+
     border-radius:18px;
+
     padding:25px;
+
     transition:.2s;
 }
 
 .card:hover{
     transform:translateY(-3px);
-    box-shadow:0 12px 30px rgba(30,45,70,.08);
+
+    box-shadow:
+    0 12px 30px rgba(30,45,70,.08);
 }
 
 .icon{
     width:46px;
     height:46px;
+
     border-radius:13px;
+
     background:#eef3ff;
+
     color:#2457d6;
+
     display:flex;
+
     align-items:center;
     justify-content:center;
+
     font-size:21px;
+
     margin-bottom:17px;
 }
 
 .card h3{
     font-size:18px;
+
     margin-bottom:9px;
 }
 
 .card p{
     color:#727c8b;
+
     font-size:14px;
+
     line-height:1.7;
 }
 
-/* HELP */
+
+/* =========================
+   HELP
+========================= */
+
 .help-grid{
     display:grid;
-    grid-template-columns:repeat(3,1fr);
+
+    grid-template-columns:
+    repeat(3,1fr);
+
     gap:16px;
 }
 
 .help{
-    background:white;
+    background:#fff;
+
     border:1px solid #e5e9f0;
+
     border-radius:17px;
+
     padding:22px;
 }
 
@@ -278,77 +383,123 @@ section{
 
 .help p{
     color:#737d8c;
+
     font-size:13px;
+
     line-height:1.6;
+
     margin-bottom:17px;
 }
 
 .help button,
 .help a{
     display:inline-block;
+
     background:#f0f4fa;
+
     padding:10px 13px;
+
     border-radius:9px;
+
     font-size:13px;
+
     font-weight:700;
 }
 
-/* INFO */
+
+/* =========================
+   INFO
+========================= */
+
 .info{
     background:#edf3ff;
+
     border:1px solid #dbe6ff;
+
     border-radius:18px;
+
     padding:25px;
+
     margin-top:20px;
 }
 
 .info h3{
     margin-bottom:10px;
+
     color:#2457d6;
 }
 
 .info p{
     color:#5e6a7c;
+
     line-height:1.8;
+
     font-size:14px;
 }
 
-/* FOOTER */
+
+/* =========================
+   FOOTER
+========================= */
+
 footer{
     margin-top:40px;
+
     background:#182230;
+
     color:#9ca8ba;
+
     padding:35px 7%;
+
     font-size:12px;
+
     line-height:1.8;
 }
 
-/* MODAL */
+
+/* =========================
+   MODAL
+========================= */
+
 .modal-bg{
     position:fixed;
+
     inset:0;
+
     background:rgba(10,18,32,.65);
+
     display:none;
+
     align-items:center;
     justify-content:center;
+
     padding:20px;
+
     z-index:100;
 }
 
 .modal{
     width:100%;
+
     max-width:500px;
+
     max-height:90vh;
+
     overflow:auto;
-    background:white;
+
+    background:#fff;
+
     border-radius:20px;
+
     padding:30px;
 }
 
 .modal-header{
     display:flex;
+
     justify-content:space-between;
     align-items:center;
+
     margin-bottom:24px;
 }
 
@@ -359,10 +510,18 @@ footer{
 .close{
     width:36px;
     height:36px;
+
     border-radius:50%;
+
     background:#f0f2f6;
+
     font-size:20px;
 }
+
+
+/* =========================
+   FORM
+========================= */
 
 .form-group{
     margin-bottom:18px;
@@ -370,95 +529,206 @@ footer{
 
 .form-group label{
     display:block;
+
     font-size:13px;
+
     font-weight:800;
+
     margin-bottom:8px;
 }
 
 .form-group input{
     width:100%;
+
     padding:14px;
+
     border:1px solid #dfe4ec;
+
     border-radius:10px;
+
     outline:none;
+
     font-size:15px;
 }
 
 .form-group input:focus{
     border-color:#2457d6;
-    box-shadow:0 0 0 3px rgba(36,87,214,.08);
+
+    box-shadow:
+    0 0 0 3px rgba(36,87,214,.08);
 }
 
 .notice{
     background:#fff7e6;
+
     border:1px solid #ffe6b0;
+
     border-radius:11px;
+
     padding:13px;
+
     color:#765d28;
+
     font-size:12px;
+
     line-height:1.6;
+
     margin-bottom:20px;
 }
 
 .submit-btn{
     width:100%;
+
     background:#2457d6;
-    color:white;
+
+    color:#fff;
+
     padding:15px;
+
     border-radius:11px;
+
     font-size:15px;
+
     font-weight:800;
 }
 
-/* RESULT */
+
+/* =========================
+   RESULT
+========================= */
+
 .result{
     display:none;
+
     text-align:center;
 }
 
 .result-icon{
     width:65px;
     height:65px;
+
     background:#e9f7ef;
+
     color:#18864b;
+
     border-radius:50%;
+
     margin:0 auto 18px;
+
     display:flex;
+
     align-items:center;
     justify-content:center;
+
     font-size:28px;
+}
+
+.result h2{
+    font-size:21px;
+}
+
+.result p{
+    color:#727c8b;
+
+    margin-top:10px;
 }
 
 .case-number{
     background:#f1f4f9;
+
     border-radius:10px;
+
     padding:14px;
+
     margin:20px 0;
+
     font-weight:800;
+
     color:#2457d6;
 }
 
-/* TOAST */
+
+/*
+   완료 후 상대방 전화번호 버튼
+*/
+
+.result-call-btn{
+    width:100%;
+
+    background:#ef4444;
+
+    color:#fff;
+
+    padding:15px;
+
+    border-radius:11px;
+
+    font-size:15px;
+
+    font-weight:800;
+
+    margin-bottom:10px;
+}
+
+.result-close-btn{
+    width:100%;
+
+    background:#edf1f6;
+
+    color:#303a49;
+
+    padding:14px;
+
+    border-radius:11px;
+
+    font-size:14px;
+
+    font-weight:700;
+}
+
+
+/* =========================
+   TOAST
+========================= */
+
 .toast{
     position:fixed;
+
     bottom:25px;
     left:50%;
-    transform:translateX(-50%) translateY(100px);
+
+    transform:
+    translateX(-50%)
+    translateY(100px);
+
     background:#17233d;
-    color:white;
+
+    color:#fff;
+
     padding:13px 18px;
+
     border-radius:10px;
+
     font-size:13px;
+
     transition:.3s;
+
     z-index:300;
 }
 
 .toast.show{
-    transform:translateX(-50%) translateY(0);
+    transform:
+    translateX(-50%)
+    translateY(0);
 }
 
-/* MOBILE */
+
+/* =========================
+   MOBILE
+========================= */
+
 @media(max-width:800px){
+
     header{
         padding:0 18px;
     }
@@ -469,6 +739,7 @@ footer{
 
     .hero{
         grid-template-columns:1fr;
+
         padding-top:45px;
     }
 
@@ -496,124 +767,248 @@ footer{
 
     .emergency{
         flex-direction:column;
+
         align-items:stretch;
     }
 
     .call-btn{
         width:100%;
     }
+
 }
+
 </style>
 </head>
 
+
 <body>
 
+
+<!-- =========================
+     HEADER
+========================= -->
+
 <header>
+
     <div class="logo">
         다온 <span>· 학교폭력 도움센터</span>
     </div>
 
     <div class="header-right">
-        <button class="header-btn" onclick="openCounsel()">상담 신청</button>
-        <button class="header-btn" onclick="goHelp()">도움받기</button>
+
+        <button
+            class="header-btn"
+            onclick="openCounsel()">
+            상담 신청
+        </button>
+
+        <button
+            class="header-btn"
+            onclick="goHelp()">
+            도움받기
+        </button>
+
     </div>
+
 </header>
 
 
-<!-- HERO -->
+
+<!-- =========================
+     HERO
+========================= -->
+
 <div class="hero">
 
     <div>
-        <div class="badge">학교폭력 익명 상담 도움센터</div>
+
+        <div class="badge">
+            학교폭력 익명 상담 도움센터
+        </div>
+
 
         <h1>
+
             혼자 참고 있지 않아도 돼요.<br>
-            <span>도움을 요청해도 괜찮아요.</span>
+
+            <span>
+                도움을 요청해도 괜찮아요.
+            </span>
+
         </h1>
 
+
         <p>
-            학교폭력으로 힘든 상황에 있다면 혼자 해결하려 하지 않아도 됩니다.
-            상담과 신고를 통해 도움을 받을 수 있는 방법을 안내해 드립니다.
+
+            학교폭력으로 힘든 상황에 있다면
+            혼자 해결하려 하지 않아도 됩니다.
+            상담과 신고를 통해 도움받을 수 있는
+            방법을 안내해 드립니다.
+
         </p>
 
+
         <div class="main-buttons">
-            <button class="primary" onclick="openCounsel()">
+
+            <button
+                class="primary"
+                onclick="openCounsel()">
+
                 상담 신청하기
+
             </button>
 
-            <button class="secondary" onclick="goHelp()">
+
+            <button
+                class="secondary"
+                onclick="goHelp()">
+
                 도움받는 방법 보기
+
             </button>
+
         </div>
+
     </div>
 
 
+
+    <!-- 오른쪽 카드 -->
+
     <div class="hero-card">
 
-        <div class="small">긴급한 상황이라면</div>
+        <div class="small">
+            긴급한 상황이라면
+        </div>
 
-        <h2>지금 위험한 상황인가요?</h2>
+
+        <h2>
+            지금 위험한 상황인가요?
+        </h2>
+
 
         <p>
+
             현재 폭력이나 위협이 발생하고 있거나
             즉각적인 도움이 필요한 경우에는
             긴급 신고를 이용하세요.
+
         </p>
+
 
         <div class="emergency">
 
             <div>
-                <strong>긴급전화 112</strong>
-                <span>경찰 긴급신고</span>
+
+                <strong>
+                    긴급전화 112
+                </strong>
+
+                <span>
+                    경찰 긴급신고
+                </span>
+
             </div>
 
-            <!-- 이 버튼은 입력된 상대방 전화번호로 전화 -->
-            <button class="call-btn" onclick="callOtherPerson()">
-                상대방에게 전화
+
+            <!--
+            이 버튼은 상담 신청 후
+            입력한 상대방 전화번호로 변경된다.
+            -->
+
+            <button
+                class="call-btn"
+                id="heroCallButton"
+                onclick="heroCall()">
+
+                112 신고하기
+
             </button>
 
         </div>
 
     </div>
+
 </div>
 
 
-<!-- FEATURES -->
+
+<!-- =========================
+     이용 방법
+========================= -->
+
 <section>
 
     <div class="section-title">
-        <h2>이용 방법</h2>
-        <p>필요한 도움을 선택하세요.</p>
+
+        <h2>
+            이용 방법
+        </h2>
+
+        <p>
+            필요한 도움을 선택하세요.
+        </p>
+
     </div>
+
+
 
     <div class="cards">
 
         <div class="card">
-            <div class="icon">🔒</div>
-            <h3>익명 상담</h3>
+
+            <div class="icon">
+                🔒
+            </div>
+
+            <h3>
+                익명 상담
+            </h3>
+
             <p>
                 상담 신청을 통해 현재 상황을 정리하고
                 도움받을 수 있는 방법을 확인할 수 있습니다.
             </p>
+
         </div>
 
+
+
         <div class="card">
-            <div class="icon">📞</div>
-            <h3>전화 도움</h3>
+
+            <div class="icon">
+                📞
+            </div>
+
+            <h3>
+                전화 도움
+            </h3>
+
             <p>
                 긴급 상황에서는 112,
                 청소년 상담이 필요하다면 1388 등의
                 도움을 이용할 수 있습니다.
             </p>
+
         </div>
 
+
+
         <div class="card">
-            <div class="icon">🏫</div>
-            <h3>공식 기관 안내</h3>
+
+            <div class="icon">
+                🏫
+            </div>
+
+            <h3>
+                공식 기관 안내
+            </h3>
+
             <p>
                 경찰청과 교육부 등 학교폭력과 관련된
                 공식 기관 정보를 확인할 수 있습니다.
             </p>
+
         </div>
 
     </div>
@@ -621,116 +1016,204 @@ footer{
 </section>
 
 
-<!-- HELP -->
+
+<!-- =========================
+     도움받기
+========================= -->
+
 <section id="help">
 
     <div class="section-title">
-        <h2>도움받을 수 있는 곳</h2>
-        <p>필요한 상황에 맞는 기관을 이용하세요.</p>
+
+        <h2>
+            도움받을 수 있는 곳
+        </h2>
+
+        <p>
+            필요한 상황에 맞는 기관을 이용하세요.
+        </p>
+
     </div>
+
+
 
     <div class="help-grid">
 
+
         <!-- 112 -->
+
         <div class="help">
-            <h3>🚨 112</h3>
+
+            <h3>
+                🚨 112
+            </h3>
 
             <p>
+
                 폭력이나 위협 등 긴급한 상황에서
                 경찰의 도움이 필요할 때 이용합니다.
+
             </p>
+
 
             <a href="tel:112">
                 112 전화하기
             </a>
+
         </div>
 
 
+
         <!-- 1388 -->
+
         <div class="help">
-            <h3>💬 청소년전화 1388</h3>
+
+            <h3>
+                💬 청소년전화 1388
+            </h3>
 
             <p>
+
                 청소년이 어려운 상황에 처했을 때
                 상담과 도움을 받을 수 있습니다.
+
             </p>
+
 
             <a href="tel:1388">
                 1388 전화하기
             </a>
+
         </div>
 
 
+
         <!-- 117 -->
+
         <div class="help">
-            <h3>📞 학교폭력 신고 117</h3>
+
+            <h3>
+                📞 학교폭력 신고 117
+            </h3>
 
             <p>
+
                 학교폭력과 관련한 상담 및 신고에
                 도움을 받을 수 있습니다.
+
             </p>
+
 
             <a href="tel:117">
                 117 전화하기
             </a>
+
         </div>
 
 
+
         <!-- 경찰청 -->
+
         <div class="help">
-            <h3>👮 경찰청</h3>
+
+            <h3>
+                👮 경찰청
+            </h3>
 
             <p>
                 경찰 관련 공식 정보를 확인할 수 있습니다.
             </p>
 
-            <a href="https://www.police.go.kr/" target="_blank">
+
+            <a
+                href="https://www.police.go.kr/"
+                target="_blank">
+
                 경찰청 홈페이지
+
             </a>
+
         </div>
+
 
 
         <!-- 교육부 -->
+
         <div class="help">
-            <h3>🏫 교육부</h3>
+
+            <h3>
+                🏫 교육부
+            </h3>
 
             <p>
+
                 학교폭력 예방 및 교육 관련
                 공식 정보를 확인할 수 있습니다.
+
             </p>
 
-            <a href="https://www.moe.go.kr/" target="_blank">
+
+            <a
+                href="https://www.moe.go.kr/"
+                target="_blank">
+
                 교육부 홈페이지
+
             </a>
+
         </div>
 
 
-        <!-- 1388 홈페이지 -->
+
+        <!-- 1388 -->
+
         <div class="help">
-            <h3>🌐 청소년 상담정보</h3>
+
+            <h3>
+                🌐 청소년 상담정보
+            </h3>
 
             <p>
+
                 청소년 상담 및 도움에 관한
                 다양한 정보를 확인할 수 있습니다.
+
             </p>
 
-            <a href="https://www.cyber1388.kr/" target="_blank">
+
+            <a
+                href="https://www.cyber1388.kr/"
+                target="_blank">
+
                 1388 상담정보
+
             </a>
+
         </div>
 
     </div>
 
 
+
+    <!-- 개인정보 안내 -->
+
     <div class="info">
 
-        <h3>개인정보 보호 안내</h3>
+        <h3>
+            개인정보 보호 안내
+        </h3>
 
         <p>
-            상담 신청서에 입력하는 전화번호는 민감한 개인정보이므로
-            다른 사람에게 공개하거나 보복 등의 목적으로 사용해서는 안 됩니다.
-            실제 서비스로 운영할 경우에는 HTTPS, 서버 보안,
-            접근 권한 관리, 개인정보 보관기간 등을 반드시 적용해야 합니다.
+
+            상담 신청서에 입력하는 전화번호는
+            민감한 개인정보입니다.
+            다른 사람에게 공개하거나 보복 등의 목적으로
+            사용해서는 안 됩니다.
+
+            실제 서비스로 운영할 경우에는
+            HTTPS, 서버 보안, 접근 권한 관리,
+            개인정보 보관기간 등을 반드시 적용해야 합니다.
+
         </p>
 
     </div>
@@ -738,150 +1221,269 @@ footer{
 </section>
 
 
-<!-- FOOTER -->
+
+<!-- =========================
+     FOOTER
+========================= -->
+
 <footer>
 
-    <strong>다온 · 학교폭력 도움센터</strong><br>
+    <strong>
+        다온 · 학교폭력 도움센터
+    </strong>
+
+    <br>
 
     이 페이지는 상담 서비스의 화면과 기능을 구현한
-    HTML 데모입니다.<br>
+    HTML 데모입니다.
 
-    현재 버전은 입력된 상담 정보를 실제 상담기관으로 전송하지 않습니다.
+    <br>
+
+    현재 버전은 입력된 상담 정보를 실제 상담기관으로
+    전송하지 않습니다.
 
 </footer>
 
 
-<!-- MODAL -->
-<div class="modal-bg" id="modal">
+
+<!-- =========================
+     상담 모달
+========================= -->
+
+<div
+    class="modal-bg"
+    id="modal">
+
 
     <div class="modal">
+
+
+        <!-- =================
+             입력 화면
+        ================== -->
 
         <div id="formArea">
 
             <div class="modal-header">
-                <h2>상담 신청</h2>
 
-                <button class="close" onclick="closeCounsel()">
+                <h2>
+                    상담 신청
+                </h2>
+
+
+                <button
+                    class="close"
+                    onclick="closeCounsel()">
+
                     ×
+
                 </button>
+
             </div>
+
 
 
             <div class="notice">
+
                 상담을 위해 아래 정보를 입력해주세요.
-                상대방 전화번호는 신고 및 상담 과정에서 필요한 경우에만
-                활용해야 하며 다른 목적으로 사용하면 안 됩니다.
+
+                <br><br>
+
+                상대방 전화번호는 신고 및 상담 과정에서
+                필요한 경우에만 활용해야 하며
+                다른 목적으로 사용하면 안 됩니다.
+
             </div>
 
 
+
+            <!-- 이름 -->
+
             <div class="form-group">
 
-                <label>이름</label>
+                <label>
+                    이름
+                </label>
+
 
                 <input
                     id="name"
                     type="text"
-                    placeholder="이름을 입력하세요"
-                >
+                    placeholder="이름을 입력하세요">
 
             </div>
 
 
+
+            <!-- 본인 전화번호 -->
+
             <div class="form-group">
 
-                <label>본인 전화번호</label>
+                <label>
+                    본인 전화번호
+                </label>
+
 
                 <input
                     id="myPhone"
                     type="tel"
                     maxlength="13"
                     placeholder="010-0000-0000"
-                    oninput="formatPhone(this)"
-                >
+                    oninput="formatPhone(this)">
 
             </div>
 
 
+
+            <!-- 상대방 전화번호 -->
+
             <div class="form-group">
 
-                <label>상대방 전화번호</label>
+                <label>
+                    상대방 전화번호
+                </label>
+
 
                 <input
                     id="otherPhone"
                     type="tel"
                     maxlength="13"
                     placeholder="010-0000-0000"
-                    oninput="formatPhone(this)"
-                >
+                    oninput="formatPhone(this)">
 
             </div>
 
 
+
             <button
                 class="submit-btn"
-                onclick="submitCounsel()"
-            >
+                onclick="submitCounsel()">
+
                 상담 신청하기
+
             </button>
 
         </div>
 
 
-        <!-- 신청 완료 -->
-        <div class="result" id="resultArea">
+
+        <!-- =================
+             완료 화면
+        ================== -->
+
+        <div
+            class="result"
+            id="resultArea">
+
 
             <div class="result-icon">
                 ✓
             </div>
 
-            <h2>상담 신청이 완료되었습니다.</h2>
 
-            <p style="color:#727c8b;margin-top:10px;">
-                아래 접수번호를 확인해 주세요.
+            <h2>
+                상담 신청이 완료되었습니다.
+            </h2>
+
+
+            <p>
+                접수번호를 확인해 주세요.
             </p>
 
-            <div class="case-number" id="caseNumber">
+
+
+            <div
+                class="case-number"
+                id="caseNumber">
+
             </div>
 
+
+
+            <!--
+            핵심 부분
+
+            상담 신청할 때 입력했던
+            상대방 전화번호로 연결된다.
+            -->
+
             <button
-                class="submit-btn"
-                onclick="closeCounsel()"
-            >
+                class="result-call-btn"
+                id="resultCallButton"
+                onclick="callSavedOtherPhone()">
+
+                상대방 전화번호로 전화하기
+
+            </button>
+
+
+
+            <button
+                class="result-close-btn"
+                onclick="closeCounsel()">
+
                 닫기
+
             </button>
 
         </div>
 
     </div>
+
 </div>
 
 
+
 <!-- TOAST -->
-<div class="toast" id="toast"></div>
+
+<div
+    class="toast"
+    id="toast">
+</div>
+
 
 
 <script>
 
+
+/* ==================================================
+   상담 신청 시 저장되는 상대방 전화번호
+================================================== */
+
 let savedOtherPhone = "";
 
 
-/* 상담창 열기 */
+
+/* ==================================================
+   상담창 열기
+================================================== */
+
 function openCounsel(){
 
-    document.getElementById("modal").style.display = "flex";
+    document.getElementById("modal").style.display =
+        "flex";
 
 }
 
 
-/* 상담창 닫기 */
+
+/* ==================================================
+   상담창 닫기
+================================================== */
+
 function closeCounsel(){
 
-    document.getElementById("modal").style.display = "none";
+    document.getElementById("modal").style.display =
+        "none";
 
 }
 
 
-/* 도움받기 위치 */
+
+/* ==================================================
+   도움받기 이동
+================================================== */
+
 function goHelp(){
 
     document.getElementById("help").scrollIntoView({
@@ -891,16 +1493,23 @@ function goHelp(){
 }
 
 
-/* 전화번호 자동 형식 */
+
+/* ==================================================
+   전화번호 자동 하이픈
+================================================== */
+
 function formatPhone(input){
 
-    let value = input.value.replace(/[^0-9]/g,"");
+    let value =
+        input.value.replace(/[^0-9]/g,"");
+
 
     if(value.length <= 3){
 
         input.value = value;
 
     }
+
     else if(value.length <= 7){
 
         input.value =
@@ -909,6 +1518,7 @@ function formatPhone(input){
             + value.slice(3);
 
     }
+
     else{
 
         input.value =
@@ -923,121 +1533,293 @@ function formatPhone(input){
 }
 
 
-/* 접수번호 생성 */
+
+/* ==================================================
+   접수번호 생성
+================================================== */
+
 function createCaseNumber(){
 
-    const date = new Date();
+    const date =
+        new Date();
+
 
     const yy =
-        String(date.getFullYear()).slice(-2);
+        String(date.getFullYear())
+        .slice(-2);
+
 
     const mm =
-        String(date.getMonth()+1).padStart(2,"0");
+        String(date.getMonth()+1)
+        .padStart(2,"0");
+
 
     const dd =
-        String(date.getDate()).padStart(2,"0");
+        String(date.getDate())
+        .padStart(2,"0");
+
 
     const random =
-        Math.floor(1000 + Math.random()*9000);
+        Math.floor(
+            1000 + Math.random() * 9000
+        );
+
 
     return `DAON-${yy}${mm}${dd}-${random}`;
 
 }
 
 
-/* 상담 신청 */
+
+/* ==================================================
+   상담 신청
+================================================== */
+
 function submitCounsel(){
 
     const name =
-        document.getElementById("name").value.trim();
+        document.getElementById("name")
+        .value
+        .trim();
+
 
     const myPhone =
-        document.getElementById("myPhone").value.replace(/[^0-9]/g,"");
+        document.getElementById("myPhone")
+        .value
+        .replace(/[^0-9]/g,"");
+
 
     const otherPhone =
-        document.getElementById("otherPhone").value.replace(/[^0-9]/g,"");
+        document.getElementById("otherPhone")
+        .value
+        .replace(/[^0-9]/g,"");
 
+
+
+    /* 이름 확인 */
 
     if(name === ""){
 
-        showToast("이름을 입력해주세요.");
+        showToast(
+            "이름을 입력해주세요."
+        );
+
         return;
 
     }
 
+
+
+    /* 본인 전화번호 확인 */
 
     if(myPhone.length < 10){
 
-        showToast("본인 전화번호를 확인해주세요.");
+        showToast(
+            "본인 전화번호를 확인해주세요."
+        );
+
         return;
 
     }
 
+
+
+    /* 상대방 전화번호 확인 */
 
     if(otherPhone.length < 10){
 
-        showToast("상대방 전화번호를 확인해주세요.");
+        showToast(
+            "상대방 전화번호를 확인해주세요."
+        );
+
         return;
 
     }
 
 
-    /*
-     * 핵심:
-     * 상담 신청 때 입력한 상대방 전화번호를 저장한다.
-     */
-    savedOtherPhone = otherPhone;
 
+    /*
+    핵심 기능
+
+    상담 신청 완료 전에
+    상대방 전화번호를 저장한다.
+    */
+
+    savedOtherPhone =
+        otherPhone;
+
+
+
+    /*
+    접수번호 생성
+    */
 
     const caseNumber =
         createCaseNumber();
 
 
-    document.getElementById("caseNumber").textContent =
+    document.getElementById(
+        "caseNumber"
+    ).textContent =
         caseNumber;
 
 
-    document.getElementById("formArea").style.display =
+
+    /*
+    입력 화면 숨기기
+    */
+
+    document.getElementById(
+        "formArea"
+    ).style.display =
         "none";
 
-    document.getElementById("resultArea").style.display =
+
+
+    /*
+    완료 화면 표시
+    */
+
+    document.getElementById(
+        "resultArea"
+    ).style.display =
         "block";
 
 
-    showToast("상담 신청이 완료되었습니다.");
+
+    /*
+    완료 화면의 버튼을
+    상대방 번호용으로 변경
+    */
+
+    const resultButton =
+        document.getElementById(
+            "resultCallButton"
+        );
+
+
+    resultButton.textContent =
+        "상대방 전화번호로 전화하기";
+
+
+
+    /*
+    상단 긴급 버튼도
+    입력한 상대방 번호를 사용하도록 변경
+    */
+
+    const heroButton =
+        document.getElementById(
+            "heroCallButton"
+        );
+
+
+    heroButton.textContent =
+        "상대방 전화번호로 전화";
+
+
+    heroButton.style.background =
+        "#ef4444";
+
+
+
+    showToast(
+        "상담 신청이 완료되었습니다."
+    );
 
 }
 
 
-/*
- * 상대방 전화번호로 전화하기
- *
- * 상담 신청서에서 입력한 상대방 전화번호가
- * savedOtherPhone에 저장되어 있다.
- */
-function callOtherPerson(){
+
+/* ==================================================
+   완료 화면의 상대방 전화 버튼
+================================================== */
+
+function callSavedOtherPhone(){
 
     if(savedOtherPhone === ""){
 
         showToast(
-            "먼저 상담 신청에서 상대방 전화번호를 입력해주세요."
+            "상대방 전화번호가 없습니다."
         );
-
-        openCounsel();
 
         return;
 
     }
 
 
-    const formatted =
-        formatPhoneForDisplay(savedOtherPhone);
+
+    const displayNumber =
+        formatPhoneForDisplay(
+            savedOtherPhone
+        );
+
 
 
     const confirmed =
         confirm(
-            "상대방 전화번호로 전화를 걸까요?\n\n" +
-            "전화번호: " + formatted
+            "입력한 상대방 전화번호로 전화를 걸까요?\n\n"
+            + displayNumber
+        );
+
+
+
+    if(!confirmed){
+
+        return;
+
+    }
+
+
+
+    /*
+    tel: 주소로 전화 연결
+    */
+
+    window.location.href =
+        "tel:" + savedOtherPhone;
+
+}
+
+
+
+/* ==================================================
+   상단 버튼
+================================================== */
+
+function heroCall(){
+
+    /*
+    아직 상담 신청하지 않았다면
+    실제 112로 연결
+    */
+
+    if(savedOtherPhone === ""){
+
+        window.location.href =
+            "tel:112";
+
+        return;
+
+    }
+
+
+
+    /*
+    상담 신청이 완료되었다면
+    입력했던 상대방 번호로 연결
+    */
+
+    const displayNumber =
+        formatPhoneForDisplay(
+            savedOtherPhone
+        );
+
+
+    const confirmed =
+        confirm(
+            "상담 신청 때 입력한 상대방 전화번호로 전화를 걸까요?\n\n"
+            + displayNumber
         );
 
 
@@ -1048,16 +1830,17 @@ function callOtherPerson(){
     }
 
 
-    /*
-     * 실제 전화 연결
-     */
     window.location.href =
         "tel:" + savedOtherPhone;
 
 }
 
 
-/* 전화번호 표시 */
+
+/* ==================================================
+   전화번호 보기 형식
+================================================== */
+
 function formatPhoneForDisplay(phone){
 
     if(phone.length === 11){
@@ -1072,34 +1855,66 @@ function formatPhoneForDisplay(phone){
 
     }
 
+
+    if(phone.length === 10){
+
+        return (
+            phone.slice(0,3)
+            + "-"
+            + phone.slice(3,6)
+            + "-"
+            + phone.slice(6)
+        );
+
+    }
+
+
     return phone;
 
 }
 
 
-/* 토스트 */
+
+/* ==================================================
+   토스트
+================================================== */
+
 function showToast(message){
 
     const toast =
-        document.getElementById("toast");
+        document.getElementById(
+            "toast"
+        );
+
 
     toast.textContent =
         message;
 
-    toast.classList.add("show");
+
+    toast.classList.add(
+        "show"
+    );
 
 
     setTimeout(function(){
 
-        toast.classList.remove("show");
+        toast.classList.remove(
+            "show"
+        );
 
     },2500);
 
 }
 
 
-/* 모달 바깥 클릭 */
-document.getElementById("modal").addEventListener(
+
+/* ==================================================
+   모달 바깥 클릭
+================================================== */
+
+document
+.getElementById("modal")
+.addEventListener(
     "click",
     function(e){
 
